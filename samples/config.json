@@ -1,0 +1,30 @@
+{
+  "using default values": true,
+  "write log file": true,
+  "open output file": true,
+  "grayscale volume regex": "(Grayscale:\\s)((\\d{1,3},)?(\\d{1,3},)?(\\d{1,3}))",
+  "color volume regex": "(Color:\\s)((\\d{1,3},)?(\\d{1,3},)?(\\d{1,3}))",
+  "production info": {
+    "bw machine 1": {
+      "name": "BW1",
+      "serial number": "00000000000"
+    },
+    "bw machine 2": {
+      "name": "BW2",
+      "serial number": "00000000000"
+    },
+    "color machine 1": {
+      "name": "CLR1",
+      "serial number": "00000000000"
+    },
+    "color machine 2": {
+      "name": "CLR2",
+      "serial number": "00000000000"
+    },
+    "meter columns": {
+      "serials": "P",
+      "total black and white": "BF",
+      "total color": "BK"
+    }
+  }
+}
